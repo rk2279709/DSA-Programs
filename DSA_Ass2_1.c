@@ -4,8 +4,7 @@ struct node
 {
     int data;
     struct node *next;
-};
-struct node *start=NULL;
+}*start=NULL;
 struct node* Create_node()
 {
     struct node *n;
